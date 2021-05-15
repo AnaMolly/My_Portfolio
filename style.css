@@ -1,0 +1,40 @@
+
+.header{
+    padding-left: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.navbar {
+    background-color: teal;
+    color: white;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    padding-top: 30px;
+    font-weight: 200;
+    margin-right: 10px;
+}
+
+.navbar a{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-right: 15px;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: rgb(8, 71, 71);
+    
+}
+
+h1{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 200;
+}
