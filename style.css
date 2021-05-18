@@ -76,11 +76,13 @@ body{
 }
 .aboutme h2{
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 200;
+    letter-spacing: 4px;
     color: rgb(241, 42, 165);
     padding:5px;
     order: 1;
 }
+
 .aboutme img{
     max-height: 450px;
     max-width: 450px;
@@ -118,6 +120,10 @@ body{
    border-bottom: solid rgb(248, 213, 16);
 }
 
+.button3:hover {
+    text-decoration: underline solid rgb(248, 213, 16);
+ }
+
 .mywork {
     display: flex;
     flex-direction: column;
@@ -144,6 +150,7 @@ body{
 
 .mywork h3{
     text-align:center;
+    letter-spacing: 5px;
     padding: 40px;
     font-size: 70px;
     font-weight: 100;
@@ -158,17 +165,15 @@ body{
     font-weight: 200;
     color: rgb(241, 42, 165);
     background-color: white;
-    padding:15px 50px 50px 50px;
+    padding:15px 50px 30px 50px;
 }
 .mywork .button3{
     background-color:white;
-    text-align: right;
     color: rgb(241, 42, 165);
     font-weight: 300;
-    padding: 10px;
-    height: 40px;
+    padding: 10px 30px 30px 30px;
     font-size: 20px;
-    order: 4;
+    text-align: right;
 }
 
 .contactme2{
