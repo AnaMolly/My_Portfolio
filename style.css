@@ -127,56 +127,56 @@ body{
 
 .imgcont{
     display: flex;
-    justify-content:center;
-  
+    justify-content:space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
     
 }
 
 .imgcont img{
+    flex-wrap: wrap;
     max-width: 150px;
     max-height:150px;
-    margin: 40px;
+    margin-bottom: 20px;
+    background-color: white;
 }
 
 .mywork h3{
     text-align:center;
-    margin-left: 40px;
-    margin-top: 40px;
-    padding-bottom: 20px;
+    padding: 40px;
     font-size: 70px;
-    font-weight: 400;
+    font-weight: 100;
     color: rgb(241, 42, 165);
+    background-color: white;
 }
-
-.mywork .button2{
-    background-color:#FFC6C6;
+.mywork p{
+    line-height: 1.25;
+    font-size:25px;
+    margin:0px;
+    text-align: center;
+    font-weight: 200;
+    color: rgb(241, 42, 165);
+    background-color: white;
+    padding:15px 50px 50px 50px;
+}
+.mywork .button3{
+    background-color:white;
+    text-align: right;
     color: rgb(241, 42, 165);
     font-weight: 300;
     padding: 10px;
     height: 40px;
     font-size: 20px;
-    text-align: right;
-    margin-left: auto;
-    margin-right: 20px;
     order: 4;
 }
 
-
-.mywork p{
-    line-height: 1.25;
-    font-size:25px;
-    margin-left: 40px;
-    text-align: center;
-    font-weight: 200;
-    color: white;
-}
-
 .contactme2{
-    margin: 40px 30px 30px 30px;
     height:auto;
     display: flex;
     align-items: center;
     padding: 30px;
+    background-color:#FFC6C6;
 }
 .contactme2 h2{
     text-align:right;
