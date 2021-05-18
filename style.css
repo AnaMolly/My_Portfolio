@@ -191,16 +191,20 @@ body{
     font-weight: 400;
     padding: 30px;
     color: rgb(241, 42, 165);
-    border-right: solid thin rgb(241, 42, 165);;
+    border-right: solid thin rgb(241, 42, 165);
+    order: 1;
 }
 .contactme2 p{
     line-height: 1.25;
     font-size:30px;
     text-align: left;
     font-weight: 200;
+    order: 2;
 }
 
-@media screen and (max-width: 706px) {
-    
+@media screen and (max-width: 550px) {
+    .contactme2{
+        flex-direction: column;
+    }
 
 }
