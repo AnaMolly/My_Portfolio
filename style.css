@@ -73,6 +73,7 @@ body{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: solid thin rgb(248, 212, 234);
 }
 .aboutme h2{
     font-size: 70px;
@@ -110,6 +111,7 @@ body{
     text-align: right;
     margin-left: auto;
     margin-right: 20px;
+    margin-bottom: 20px;
     order: 4;
 }
 
@@ -122,32 +124,25 @@ body{
 
 .button3:hover {
     text-decoration: underline solid rgb(248, 213, 16);
- }
+}
 
 .mywork {
     display: flex;
-    flex-direction: column;
-    padding: 30px;
-    background-color:#FFC6C6 ;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    padding: 0px 30px;
+    background-color:white;
 }
 
 .imgcont{
-    display: flex;
-    justify-content:space-evenly;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: white;
+    flex: 1 0 0 ;
+    justify-content: center;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
     
 }
-
-.imgcont img{
-    flex-wrap: wrap;
-    max-width: 150px;
-    max-height:150px;
-    margin-bottom: 20px;
-    background-color: white;
-}
-
 .mywork h3{
     text-align:center;
     letter-spacing: 5px;
@@ -156,7 +151,16 @@ body{
     font-weight: 100;
     color: rgb(241, 42, 165);
     background-color: white;
+    order: 1;
 }
+.imgcont img{
+    max-width: 500px;
+    min-width: 300px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
 .mywork p{
     line-height: 1.25;
     font-size:25px;
@@ -167,15 +171,6 @@ body{
     background-color: white;
     padding:15px 50px 30px 50px;
 }
-.mywork .button3{
-    background-color:white;
-    color: rgb(241, 42, 165);
-    font-weight: 300;
-    padding: 10px 30px 30px 30px;
-    font-size: 20px;
-    text-align: right;
-}
-
 .contactme2{
     height:auto;
     display: flex;
