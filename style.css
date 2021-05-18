@@ -1,7 +1,9 @@
+/* Body */
 body{
     background-color:#FFf;
 }
 
+/* Header */
 .headercon {
     display: flex;
     align-items: center;
@@ -49,12 +51,14 @@ body{
     background-color: rgb(248, 213, 16);
 }
 
+/* Hero Image */
 .hero{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
+/* Fixed button */
 .buttoncon{
     position: fixed;
 }
@@ -68,6 +72,12 @@ body{
     margin-right: 300px;
     font-size: 15px;
 }
+
+.button:hover{
+    background-color: rgb(248, 213, 16);
+}
+
+/* Section 1 - About Me*/
 .aboutme{
     margin: 60px 30px 30px 30px;
     min-height: 100%;
@@ -117,13 +127,11 @@ body{
     order: 4;
 }
 
-.button:hover{
-    background-color: rgb(248, 213, 16);
-}
 .button2:hover {
    border-bottom: solid rgb(248, 213, 16);
 }
 
+/* Section 2 - My Work */
 .mywork {
     display: flex;
     flex-wrap: wrap-reverse;
@@ -148,6 +156,16 @@ body{
     font-size: 25px;
 }
 
+.mywork p{
+    line-height: 1.8;
+    font-size:25px;
+    margin:0px;
+    text-align: center;
+    font-weight: 200;
+    background-color: white;
+    padding:15px 50px 40px 50px;
+}
+
 .imgcont{
     display: flex;
     flex-direction: column;
@@ -164,7 +182,6 @@ body{
 .imgcont img{
     max-width: 500px;
     min-width: 300px;
-    margin-top: 20px;
     margin-bottom: 20px;
     background-color: white;
 }
@@ -173,15 +190,8 @@ body{
     box-shadow: 5px 5px 15px 5px rgba(184, 45, 98, 0.4);
 }
 
-.mywork p{
-    line-height: 1.8;
-    font-size:25px;
-    margin:0px;
-    text-align: center;
-    font-weight: 200;
-    background-color: white;
-    padding:15px 50px 40px 50px;
-}
+
+/* Section 3 - Contact Me*/
 
 .contactme2{
     height:auto;
@@ -217,3 +227,5 @@ body{
 .contactme2 a:hover {
     border-bottom: solid white;
 }
+
+/* Footer*/
