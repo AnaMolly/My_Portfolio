@@ -184,6 +184,7 @@ body{
 .contactme2{
     height:auto;
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 30px;
     background-color:#FFC6C6;
@@ -197,14 +198,18 @@ body{
     padding: 30px;
     color: rgb(241, 42, 165);
     border-right: solid thin rgb(241, 42, 165);
-    order: 1;
 }
 .contactme2 p{
     line-height: 1.25;
     font-size:30px;
     text-align: left;
-    font-weight: 200;
-    order: 2;
+    font-weight: 300;
+    color: rgb(241, 42, 165);
+    padding:20px;
+}
+
+.contactcon {
+    display: flex;
 }
 
 @media screen and (max-width: 550px) {
