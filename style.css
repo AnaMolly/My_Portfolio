@@ -133,16 +133,6 @@ body{
     padding: 0px 30px;
     background-color:white;
 }
-
-.imgcont{
-    flex: 1 0 0 ;
-    justify-content: center;
-    padding: 10px;
-    border-style: solid;
-    border-width: 1px;
-    color: white;
-    
-}
 .mywork h3{
     text-align:center;
     letter-spacing: 5px;
@@ -153,13 +143,32 @@ body{
     background-color: white;
     order: 1;
 }
+
+.mywork h4{
+    color: rgb(90, 84, 89);
+    text-align: center;
+    font-size: 25px;
+}
+
+.imgcont{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 0 ;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+}
+
 .imgcont img{
     max-width: 500px;
     min-width: 300px;
     margin-bottom: 20px;
     background-color: white;
 }
-
 
 .mywork p{
     line-height: 1.25;
@@ -169,8 +178,9 @@ body{
     font-weight: 200;
     color: rgb(241, 42, 165);
     background-color: white;
-    padding:15px 50px 30px 50px;
+    padding:15px 50px 40px 50px;
 }
+
 .contactme2{
     height:auto;
     display: flex;
