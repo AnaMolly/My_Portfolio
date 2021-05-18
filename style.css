@@ -164,8 +164,13 @@ body{
 .imgcont img{
     max-width: 500px;
     min-width: 300px;
+    margin-top: 20px;
     margin-bottom: 20px;
     background-color: white;
+}
+
+.imgcont img:hover{
+    box-shadow: 5px 5px 15px 5px rgba(184, 45, 98, 0.4);
 }
 
 .mywork p{
