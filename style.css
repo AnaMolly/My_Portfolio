@@ -201,11 +201,11 @@ body{
     color: rgb(241, 42, 165);
     border-right: solid thin rgb(241, 42, 165);
 }
-.contactme2 p{
+.contactme2 p,a{
     line-height: 1.25;
     font-size:30px;
     text-align: left;
-    font-weight: 300;
+    font-weight: 200;
     color: rgb(241, 42, 165);
     padding:20px;
 }
@@ -214,6 +214,6 @@ body{
     display: flex;
     flex-wrap: wrap;
 }
-.contactme2 p:hover {
+.contactme2 a:hover {
     border-bottom: solid white;
 }
