@@ -251,8 +251,11 @@ color: rgb(150, 150, 150)
     font-size: 15px;
     display: block;
     text-align: center;
-    margin: 0px 10px 0px 0px;
-    padding: 0px;
+    margin: 0px;
+    padding: 5px;
+}
+.headercon nav{
+    padding: 5px;
 }
 .contactme2{
     flex-direction: column;
