@@ -35,7 +35,7 @@
 -to enable responsiveness for smaller screeens, media queries at a max-with:370px were included to adjust the display and style of the fixed button, the header container, the header unordered list and links, the first and second 'contact me' container as well as the'contact me' h2 tags. At max-with:370px, the header and contact me containers' are flexed in a column direction.
 
 # Screenshot:
-
+![](Screenshot.png)
 
 
 # Portfolio URL:
