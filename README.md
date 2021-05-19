@@ -15,7 +15,8 @@
 - The second section is my 'my work' section that holds three separate divs that hold h4 tags and a tags that link to a google docs with my work. There is also a p tag that includes a sentence about my work.
 - The third section is my 'contact me' section that holds an h2 tag and a div that holds my contact info. there are also a tags that link to my github and linkedin.
 - There is a footer at the bottom that indicates that the page was made in 2021 by me 
-- All images include alt attributes
+- All images were made by myself using CANVA.
+- All images contain alt attributes.
 - Each section was given ids so they can act as links in the unordered list. 
 - The header, hero div, all sections and the footer were also assigned classes for css styling.
 
