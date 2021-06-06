@@ -4,7 +4,7 @@ This is my developer portfolio.
 
 It contains a very brief biography, some examples of my past work as well as my contact information.
 
-Some of my past work visible on my portfolio includes:
+Past work visible on my portfolio includes:
 - Weather Dashboard
 - Day Planner
 - Trade Guide
