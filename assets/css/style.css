@@ -95,8 +95,8 @@ body{
 }
 
 .aboutme img{
-    max-height: 450px;
-    max-width: 450px;
+    max-height: 300px;
+    max-width: 300px;
     order: 2;
     padding:20px;
     
