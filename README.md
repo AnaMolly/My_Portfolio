@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# My Portfolio
 
 This is my developer portfolio.
 
