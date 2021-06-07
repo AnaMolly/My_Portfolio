@@ -12,6 +12,7 @@ Past work visible on my portfolio includes:
 Technologies used:
 - HTML
 - CSS 
+- Canva
 
 # Portfolio URL:
 https://anamolly.github.io/My_Portfolio/
