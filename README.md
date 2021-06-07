@@ -1,4 +1,4 @@
-# 02 Advanced CSS: Portfolio
+# My Portfolio
 
 This is my developer portfolio.
 
@@ -12,6 +12,10 @@ Past work visible on my portfolio includes:
 Technologies used:
 - HTML
 - CSS 
+- Canva
+
+# Portfolio URL:
+https://anamolly.github.io/My_Portfolio/
 
 
 # Screenshot:
@@ -21,5 +25,4 @@ Technologies used:
 ![](./assets/images/Screenshot4.png) 
 
 
-# Portfolio URL:
-https://anamolly.github.io/My_Portfolio/
+
