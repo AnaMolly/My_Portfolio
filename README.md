@@ -13,6 +13,9 @@ Technologies used:
 - HTML
 - CSS 
 
+# Portfolio URL:
+https://anamolly.github.io/My_Portfolio/
+
 
 # Screenshot:
 ![](./assets/images/Screenshot1.png) 
@@ -21,5 +24,4 @@ Technologies used:
 ![](./assets/images/Screenshot4.png) 
 
 
-# Portfolio URL:
-https://anamolly.github.io/My_Portfolio/
+
