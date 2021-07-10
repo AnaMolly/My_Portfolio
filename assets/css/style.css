@@ -282,6 +282,14 @@ color: rgb(150, 150, 150)
     
 
 }
+@media screen and (max-width:576px){
+    .headercon{
+        flex-direction:column;
+    }
+    .hero img{
+        padding-top:50px
+    }
+}
 
 @media screen and (max-width:370px){
 .button{
