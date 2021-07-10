@@ -291,7 +291,7 @@ color: rgb(150, 150, 150)
     }
 }
 
-@media screen and (max-width:370px){
+@media screen and (max-width:390px){
 .button{
     font-size: 10px;
     margin: 0px;
