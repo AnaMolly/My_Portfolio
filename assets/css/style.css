@@ -29,6 +29,7 @@ body{
     padding-left: 20px;
     padding-top: 15px;
     background-color: white;
+    
 }
 
 .headercon nav ul {
@@ -81,7 +82,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap;
     border-bottom: solid thin rgb(248, 212, 234);
 }
 .aboutme h2{
@@ -285,6 +285,7 @@ color: rgb(150, 150, 150)
 @media screen and (max-width:576px){
     .headercon{
         flex-direction:column;
+        box-shadow: none;
     }
     .hero img{
         padding-top:50px
@@ -299,6 +300,7 @@ color: rgb(150, 150, 150)
 
 .headercon {
     flex-direction: column;
+    box-shadow: none;
 }
 .headercon ul li a {
     font-size: 15px;
@@ -317,7 +319,7 @@ color: rgb(150, 150, 150)
     flex-direction: column;
 }
 .contactme2 p,a{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .contactme2 h2{
