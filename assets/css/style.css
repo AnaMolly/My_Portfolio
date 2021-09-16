@@ -9,10 +9,10 @@ body{
     align-items: center;
     justify-content: space-between;
     background-color: #fff;
-    color:rgb(241, 42, 165);
+    color:rgb(253, 19, 203);
     height: 80px;
     padding-bottom: 10px;
-    box-shadow: 5px 5px 15px 5px rgba(184, 45, 98, 0.4);
+    box-shadow: 5px 5px 15px 5px rgba(146, 137, 226, 0.4);
     position: relative;
 }
 .headercon h1{
@@ -29,7 +29,6 @@ body{
     padding-left: 20px;
     padding-top: 15px;
     background-color: white;
-    
 }
 
 .headercon nav ul {
@@ -40,7 +39,7 @@ body{
 }
 
 .headercon li a{
-    color: rgb(241, 42, 165);
+    color: rgb(56, 56, 94);
     font-size: 25px;
     padding: 8px ;
     margin: 20px 10px 0px 0px;
@@ -63,7 +62,7 @@ body{
 
 .button{
     background-color:rgb(248, 225, 225);
-    color: rgb(241, 42, 165);
+    color: rgb(56, 56, 94);
     font-weight: 300;
     padding: 10px;
     height: 40px;
@@ -89,7 +88,7 @@ body{
     font-weight: 200;
     letter-spacing: 4px;
     text-align: center;
-    color: rgb(241, 42, 165);
+    color: rgb(56, 56, 94);
     padding:5px;
     order: 1;
 }
@@ -105,7 +104,7 @@ body{
     line-height: 1.25;
     font-size:30px;
     margin-left: 20px;
-    padding:10px;
+    padding:10px 40px 40px 40px;
     text-align: center;
     font-weight: 200;
     order: 3;
@@ -113,7 +112,7 @@ body{
 
 .button2{
     background-color:white;
-    color: rgb(241, 42, 165);
+    color:rgb(253, 19, 203);
     font-weight: 300;
     padding: 10px;
     height: 40px;
@@ -134,6 +133,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     padding: 0px 30px;
     background-color:white;
 }
@@ -143,22 +143,21 @@ body{
     padding: 40px;
     font-size: 70px;
     font-weight: 100;
-    color: rgb(241, 42, 165);
+    color: rgb(56, 56, 94);
     background-color: white;
-    order: 1;
 }
 
 .myworka {
-    color: rgb(241, 42, 165);
+    justify-content: center;
     text-align: center;
+    color: rgb(56, 56, 94);
     font-size: 25px;
     font-weight: 400;
     padding:10px;
-    margin:0px 70px 0px 70px;
 }
 
 .myworka:hover{
-    text-decoration: underline solid rgb(241, 42, 165);
+    text-decoration: underline solid rgb(56, 56, 94);
 }
 
 .mywork p{
@@ -170,15 +169,23 @@ body{
     background-color: white;
     padding:15px 50px 40px 50px;
 }
+.mywork h1{
+    text-align: center;
+    font-size: 40px;
+    padding:30px;
+    color:rgb(253, 19, 203)
+}
 .imagecont{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .imgcont{
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     padding: 10px;
     border-style: solid;
     border-width: 1px;
@@ -186,13 +193,13 @@ body{
 }
 
 .imgcont img{
-    max-width: 500px;
+    max-width: 300px;
     margin-bottom: 20px;
     background-color: white;
 }
 
 .imgcont img:hover{
-    box-shadow: 5px 5px 15px 5px rgba(184, 45, 98, 0.4);
+    box-shadow: 5px 5px 15px 5px rgba(45, 78, 184, 0.4);
 }
 
 
@@ -205,7 +212,7 @@ body{
     justify-content: center;
     align-items: center;
     padding: 30px;
-    background-color:#FFC6C6;
+    background-color:rgb(56, 56, 94);
 }
 .contactme2 h2{
     text-align:right;
@@ -214,15 +221,14 @@ body{
     font-size: 40px;
     font-weight: 400;
     padding: 30px;
-    color: rgb(241, 42, 165);
-    border-right: solid thin rgb(241, 42, 165);
+    color:white;
+    border-right: solid thin rgb(56, 56, 94);
 }
 .contactme2 p,a{
     line-height: 1.25;
     font-size:30px;
     text-align: left;
     font-weight: 200;
-    color: rgb(241, 42, 165);
     padding:20px;
 }
 
@@ -235,13 +241,14 @@ body{
 }
 
 .repo {
+    color:rgb(253, 19, 203);
     text-align: center;
     font-size: 20px;
     font-style: italic;
 }
 
 .repo:hover{
-    text-decoration: underline solid rgb(241, 42, 165);
+    text-decoration: underline solid rgb(56, 56, 94);
 }
 
 /* Footer*/
@@ -268,7 +275,7 @@ color: rgb(150, 150, 150)
     
     .contactme2 h2{
         border-right: none;
-        border-bottom:solid thin rgb(241, 42, 165) ;
+        border-bottom:solid thin rgb(56, 56, 94) ;
         text-align: center;
         padding: 0px;
         margin: 15px 0px 15px 0px;
@@ -324,7 +331,7 @@ color: rgb(150, 150, 150)
 
 .contactme2 h2{
     border-right: none;
-    border-bottom:solid thin rgb(241, 42, 165) ;
+    border-bottom:solid thin rgb(56, 56, 94);
     text-align: center;
     padding: 0px;
 }
